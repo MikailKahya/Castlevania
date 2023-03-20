@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{c989cfa0-7898-470a-b12e-61ec95ff1839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{499ee9e0-083f-49f6-b33e-fe468d1f1d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Subclasses">
+      <UniqueIdentifier>{579f2e57-26cf-431a-b13e-a61b444e8b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Subclasses\Entities">
+      <UniqueIdentifier>{b32786ed-5cfa-4a8c-806b-fe2147871939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Subclasses\Entities\Enemies">
+      <UniqueIdentifier>{58d2a6e3-356d-4522-a024-502205ef5dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Subclasses\Entities\Player">
+      <UniqueIdentifier>{b6aadd77-7872-401a-aca7-aefd7e18b942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Subclasses\Entities\PickUps">
+      <UniqueIdentifier>{b5bcebbc-35e1-410d-83f3-32fdf9376734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Subclasses\Entities\Enemies\SubSkeletons">
+      <UniqueIdentifier>{4cb120d0-a602-47fa-a982-c8d6704ab041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Subclasses\Level">
+      <UniqueIdentifier>{b36235cf-ed3a-4160-bcdd-9c32bff4a649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Subclasses\Level\Rooms">
+      <UniqueIdentifier>{50b00997-2fe8-404c-a221-39fd19dddbd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Files\Subclasses\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Files\Subclasses\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="RangedSkeleton.cpp">
+      <Filter>Game Files\Subclasses\Entities\Enemies\SubSkeletons</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordSkeleton.cpp">
+      <Filter>Game Files\Subclasses\Entities\Enemies\SubSkeletons</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Game Files\Subclasses\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Game Files\Subclasses\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Files\Subclasses\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game Files\Subclasses\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Game Files\Subclasses\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Corridor.cpp">
+      <Filter>Game Files\Subclasses\Level\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Climb.cpp">
+      <Filter>Game Files\Subclasses\Level\Rooms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Files\Subclasses\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Files\Subclasses\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RangedSkeleton.h">
+      <Filter>Game Files\Subclasses\Entities\Enemies\SubSkeletons</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordSkeleton.h">
+      <Filter>Game Files\Subclasses\Entities\Enemies\SubSkeletons</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Game Files\Subclasses\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Game Files\Subclasses\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Files\Subclasses\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game Files\Subclasses\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Game Files\Subclasses\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Corridor.h">
+      <Filter>Game Files\Subclasses\Level\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Climb.h">
+      <Filter>Game Files\Subclasses\Level\Rooms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

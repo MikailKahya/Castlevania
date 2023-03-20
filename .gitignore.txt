@@ -1,0 +1,4 @@
+/64x
+/.vs
+/Libraries
+/Resources
